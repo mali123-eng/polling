@@ -20,7 +20,6 @@ public class AuditingConfig {
         return new SpringSecurityAuditAwareImpl();
     }
 }
-
 class SpringSecurityAuditAwareImpl implements AuditorAware<Long> {
 
     @Override
